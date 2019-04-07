@@ -1,0 +1,44 @@
+
+h1{
+	color: blue;
+}
+div{
+	border:1px solid #000;
+	padding: 5px;
+	background-color: #43AE11;
+}
+div div{
+	background-color: #32830D;
+} 
+div div div{
+	background-color: #296A0B;
+}
+div div div div{
+	background-color: #1F5009;
+}
+div div div div div{
+	background-color: #153706;
+}
+
+.lishki a:link{
+	text-decoration: none;
+}
+
+.lishki a:hover{
+	background:red;
+}
+.lishki li{
+	list-style-type: none;
+}
+.lishki li:nth-child(3n+1){
+	background: yellow;
+}
+.lishki li:nth-child(even){
+	font-size: 16px;
+}
+.lishki li:before{
+	content: "-";
+}
+.lishki li:first_child{
+	color: #EEDDE2;
+}
